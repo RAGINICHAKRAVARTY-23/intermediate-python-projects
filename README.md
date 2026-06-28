@@ -29,3 +29,9 @@ This is a Python program that displays song lyrics (a tribute to Zubeen Garg) in
 This is a simple Python Number Guessing Game where the computer randomly selects a number between 1 and 100 using the random module. The player guesses the number with limited attempts based on the chosen difficulty level (easy or hard). The program uses functions, loops, conditionals, and user input to control the game flow and provide hints like “too high” or “too low.” The game continues until the player guesses correctly or runs out of attempts.
 
 ---
+
+## 📐 Area Calculator
+
+This is a simple Python program that calculates the area of basic geometric shapes using Object-Oriented Programming (OOP). It defines a class with methods to calculate the area of a rectangle and a square based on the dimensions provided by the user. The program demonstrates the use of classes, objects, constructors, instance variables, methods, and basic arithmetic operations, making it a beginner-friendly example for understanding OOP concepts in Python.
+
+---
