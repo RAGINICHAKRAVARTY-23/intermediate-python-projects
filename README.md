@@ -35,3 +35,9 @@ This is a simple Python Number Guessing Game where the computer randomly selects
 This is a simple Python program that calculates the area of basic geometric shapes using Object-Oriented Programming (OOP). It defines a class with methods to calculate the area of a rectangle and a square based on the dimensions provided by the user. The program demonstrates the use of classes, objects, constructors, instance variables, methods, and basic arithmetic operations, making it a beginner-friendly example for understanding OOP concepts in Python.
 
 ---
+
+## 🎓 Student Marks Average Calculator
+
+This is a simple Python program that demonstrates the basics of Object-Oriented Programming (OOP) by creating a `Student` class. The program stores a student's name and marks in three subjects—Mathematics, English, and Science—and calculates the overall average using a class method. It uses classes, objects, constructors, instance variables, methods, arithmetic operations, and formatted output to display the student's details and percentage, making it a beginner-friendly project for learning OOP concepts in Python.
+
+---
