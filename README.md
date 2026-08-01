@@ -4,40 +4,43 @@ A collection of fun and beginner-friendly Python projects built using core progr
 
 ---
 
-## ❤️ Make Heart
+##  Make Heart
 This is a simple Python program that uses the turtle graphics module to draw a heart shape on the screen. It sets up a window with a pink background and uses a turtle object to draw and fill the heart with red color. The program uses functions from the turtle module, movement commands, angles, loops (implicitly through drawing steps), and styling features like colors and pen size to create the design.
 
 ---
 
-## 🎮 My Arena
+## My Arena
 This is a Python chatbot program called “Arena” that interacts with the user and provides multiple features like suggesting movies, telling jokes, showing date and time, playing quizzes, and giving tips. It uses the random module for selecting movies, jokes, facts, and suggestions, and the datetime module to display the current date and time.  
 The program is built using classes and objects, functions, loops, conditionals, lists, dictionaries, and user input to manage conversations and different features. It also includes simple emotion detection and interactive responses, making the chatbot more engaging and dynamic.
 
 ---
 
-## 🃏 BlackJam
+##  BlackJam
 This is a Python Blackjack game where the player competes against the computer. Cards are randomly selected using the random module, and the game follows basic Blackjack rules like aiming for a score close to 21. The program uses functions, loops, conditionals, lists, and user input to manage the game flow, calculate scores, and decide the winner. It also includes features like handling Blackjack (21), adjusting Ace values, and allowing the user to draw or pass cards.
 
 ---
 
-## 🎵 Print_lyrics
+##  Print_lyrics
 This is a Python program that displays song lyrics (a tribute to Zubeen Garg) in a creative animated style. It prints each line with a typing effect using the time module, adds random visual effects with the random module, and uses sys and io for proper text encoding. The program also applies colorful gradient text using ANSI escape codes, creating a visually appealing output. It uses functions, loops, lists, conditionals, and string formatting to control the animation and presentation of the lyrics.
 
 ---
 
-## 🔢 Number Guessing Game
+## Number Guessing Game
 This is a simple Python Number Guessing Game where the computer randomly selects a number between 1 and 100 using the random module. The player guesses the number with limited attempts based on the chosen difficulty level (easy or hard). The program uses functions, loops, conditionals, and user input to control the game flow and provide hints like “too high” or “too low.” The game continues until the player guesses correctly or runs out of attempts.
 
 ---
 
-## 📐 Area Calculator
+## Area Calculator
 
 This is a simple Python program that calculates the area of basic geometric shapes using Object-Oriented Programming (OOP). It defines a class with methods to calculate the area of a rectangle and a square based on the dimensions provided by the user. The program demonstrates the use of classes, objects, constructors, instance variables, methods, and basic arithmetic operations, making it a beginner-friendly example for understanding OOP concepts in Python.
 
 ---
 
-## 🎓 Student Marks Average Calculator
+##  Student Marks Average Calculator
 
 This is a simple Python program that demonstrates the basics of Object-Oriented Programming (OOP) by creating a `Student` class. The program stores a student's name and marks in three subjects—Mathematics, English, and Science—and calculates the overall average using a class method. It uses classes, objects, constructors, instance variables, methods, arithmetic operations, and formatted output to display the student's details and percentage, making it a beginner-friendly project for learning OOP concepts in Python.
 
 ---
+
+## 
+This project is a simple Python Turtle Graphics program created to celebrate Friendship Day. It uses mathematical equations to draw a beautiful heart made entirely of repeated "I love you" messages, along with decorative stars and a heartfelt "Happy Friendship Day" greeting. The project demonstrates how Python's Turtle module and basic mathematical concepts can be combined to create creative and visually appealing graphics, making it a fun beginner-friendly project for anyone interested in programming and digital art.
