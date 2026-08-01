@@ -42,5 +42,5 @@ This is a simple Python program that demonstrates the basics of Object-Oriented 
 
 ---
 
-## 
+## Friendship day turtle
 This project is a simple Python Turtle Graphics program created to celebrate Friendship Day. It uses mathematical equations to draw a beautiful heart made entirely of repeated "I love you" messages, along with decorative stars and a heartfelt "Happy Friendship Day" greeting. The project demonstrates how Python's Turtle module and basic mathematical concepts can be combined to create creative and visually appealing graphics, making it a fun beginner-friendly project for anyone interested in programming and digital art.
