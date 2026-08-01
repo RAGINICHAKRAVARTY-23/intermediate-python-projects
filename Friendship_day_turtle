@@ -1,0 +1,51 @@
+import turtle
+import math
+
+screen = turtle.Screen()
+screen.bgcolor("black")
+screen.title("A Special Message")
+
+t = turtle.Turtle()
+t.speed(0)
+t.hideturtle()
+t.penup()
+t.color("#ffb6c1")
+
+# Draw the heart
+for scale in range(11, 17):
+    for i in range(120):
+        angle = i * (math.pi * 2) / 120
+
+        x = 16 * (math.sin(angle) ** 3) * scale
+        y = (13 * math.cos(angle)
+             - 5 * math.cos(2 * angle)
+             - 2 * math.cos(3 * angle)
+             - math.cos(4 * angle)) * scale
+
+        t.goto(x, y)
+        t.write("I love you",
+                align="center",
+                font=("Arial", 8, "bold"))
+
+stars = [(-250, 180), (230, 170), (-270, -150), (250, -140)]
+
+t.color("#fff3b0")
+
+for x, y in stars:
+    t.goto(x, y)
+    t.write("✦", align="center", font=("Arial", 24, "bold"))
+
+
+t.goto(0, -15)
+t.color("white")
+t.write("Happy friendship day",
+        align="center",
+        font=("Arial", 16, "bold"))
+
+t.goto(0, -45)
+t.color("#ffb6c1")
+t.write("♡",
+        align="center",
+        font=("Arial", 25, "bold"))
+
+turtle.done()
