@@ -44,3 +44,19 @@ This is a simple Python program that demonstrates the basics of Object-Oriented 
 
 ## Friendship day turtle
 This project is a simple Python Turtle Graphics program created to celebrate Friendship Day. It uses mathematical equations to draw a beautiful heart made entirely of repeated "I love you" messages, along with decorative stars and a heartfelt "Happy Friendship Day" greeting. The project demonstrates how Python's Turtle module and basic mathematical concepts can be combined to create creative and visually appealing graphics, making it a fun beginner-friendly project for anyone interested in programming and digital art.
+
+---
+
+## sparke_heart
+A Python Turtle animation featuring stars moving across a black background. The stars gradually form a glowing purple heart shape. Includes Random sparkle effects create a lively, magical appearance.
+This project demonstrates animation, mathematics, loops, and Turtle graphics.
+
+---
+
+## spiral_flower
+A Python Turtle animation that creates a colourful spiral flower pattern.
+Multiple rotating arms are drawn using circles of varying sizes and colours.
+The design blends pink and purple shades against a dark background.
+This project demonstrates loops, trigonometry, animation, and Turtle graphics.
+
+---
