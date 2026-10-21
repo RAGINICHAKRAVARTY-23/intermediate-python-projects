@@ -47,7 +47,7 @@ This project is a simple Python Turtle Graphics program created to celebrate Fri
 
 ---
 
-## sparke_heart
+## sparkle_heart
 A Python Turtle animation featuring stars moving across a black background. The stars gradually form a glowing purple heart shape. Includes Random sparkle effects create a lively, magical appearance.
 This project demonstrates animation, mathematics, loops, and Turtle graphics.
 
