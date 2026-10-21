@@ -1,0 +1,53 @@
+import turtle as t
+import math as m
+import time
+
+s = t.Screen()
+s.setup(700, 700)
+s.bgcolor("#080008")
+s.tracer(0)
+p = t.Turtle()
+p.hideturtle()
+p.speed(0)
+p.width(1)
+colors = [
+    "#fe007b",
+    "#ff2f92",
+    "#ff62ad",
+    "#d946ef",
+    "#a855f7",
+    "#ff9ed2"
+]
+arms = 11
+steps = 75
+for j in range(steps):
+    t_val = j / steps
+    r_dist = 30 + 225 * (t_val ** 0.9)
+    cr = 22 * ((1 - t_val) ** 0.85) + 1.8
+
+    for i in range(arms):
+        a0 = 2 * m.pi * i / arms
+
+        angle = (
+            a0
+            + 1.8 * (t_val ** 1.2)
+            - 0.4 * m.sin(m.pi * t_val)
+        )
+
+        x = r_dist * m.cos(angle)
+        y = r_dist * m.sin(angle)
+
+        p.pencolor(colors[(i + j // 8) % len(colors)])
+        p.penup()
+        p.goto(x - cr, y - cr)
+        p.setheading(0)
+        p.pendown()
+        p.circle(cr)
+
+    s.update()
+    time.sleep(0.07)
+
+p.color("#ff9ed2")
+p.dot(12, "#ff9ed2")
+s.update()
+t.done()
