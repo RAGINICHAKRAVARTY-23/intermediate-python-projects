@@ -1,0 +1,67 @@
+import turtle as t
+import math as m
+import random as r
+import time
+
+screen = t.Screen()
+screen.setup(600, 600)
+screen.bgcolor("black")
+screen.tracer(0)
+N = 500
+stars = []
+for i in range(N):
+    angle = 2 * m.pi * (i / N)
+    heart_x = 16 * m.sin(angle) ** 3
+    heart_y = (
+        13 * m.cos(angle)
+        - 5 * m.cos(2 * angle)
+        - 2 * m.cos(3 * angle)
+        - m.cos(4 * angle)
+    )
+    target_x = heart_x * 14
+    target_y = heart_y * 14
+    start_x = r.randint(-320, 320)
+    start_y = r.randint(-320, 320)
+    star_size = r.uniform(2, 5)
+    stars.append(
+        [start_x, start_y, target_x, target_y, star_size]
+    )
+pen = t.Turtle()
+pen.hideturtle()
+pen.speed(0)
+pen.penup()
+pen.color("#a855f7")
+def draw_star(x, y, size):
+    pen.goto(x, y)
+    pen.setheading(0)
+    pen.pendown()
+    for angle in range(0, 360, 90):
+        radius = m.radians(angle)
+        dx = size * m.cos(radius)
+        dy = size * m.sin(radius)
+
+        pen.goto(x - dx, y - dy)
+        pen.goto(x + dx, y + dy)
+        pen.penup()
+        pen.goto(x, y)
+        pen.pendown()
+
+    pen.penup()
+frames = 100
+for frame in range(frames + 1):
+    pen.clear()
+    progress = frame / frames
+    eased = 1 - (1 - progress) ** 3
+    for start_x, start_y, target_x, target_y, size in stars:
+        current_x = start_x + (target_x - start_x) * eased
+        current_y = start_y + (target_y - start_y) * eased
+        sparkle_x = r.uniform(-1.5, 1.5)
+        sparkle_y = r.uniform(-1.5, 1.5)
+        draw_star(
+            current_x + sparkle_x,
+            current_y + sparkle_y,
+            size
+        )
+    screen.update()
+    time.sleep(0.03)
+t.done()
